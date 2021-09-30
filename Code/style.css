@@ -1,0 +1,10 @@
+body {
+  font-family: "Stick No Bills", sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.Row {
+  display: flex;
+}
