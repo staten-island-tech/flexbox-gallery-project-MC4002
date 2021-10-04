@@ -1,21 +1,30 @@
-* {
-  box-sizing: border-box;
-}
-html, body {
+html,
+body {
   background-color: snow;
+  box-sizing: border-box;
   font-family: "Stick No Bills", sans-serif;
   font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
+.Title {
+  text-align: center;
+}
 .Row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 5px;
   justify-content: space-evenly;
 }
-.Img {
-  margin: 5px;
+.Img-Card {
+  box-shadow: 10px 10px 10px lightblue;
+  width: 28%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
+.PIC {
+  margin: 5px;
+  padding: 5px;
+  width: 50px;
+}
