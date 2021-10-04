@@ -1,15 +1,21 @@
-body {
+* {
+  box-sizing: border-box;
+}
+html, body {
   background-color: snow;
   font-family: "Stick No Bills", sans-serif;
-  box-sizing: border-box;
   font-size: 62.5%;
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 .Row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
 }
 .Img {
-  box-shadow: 5px 5px 5px whitesmoke;
+  margin: 5px;
 }
+
+
