@@ -1,28 +1,35 @@
 body {
-  background-color: snow;
+  background-color: ghostwhite;
   box-sizing: border-box;
   font-family: "Stick No Bills", sans-serif;
   font-size: 62.5%;
   margin: 0;
   padding: 0;
   color: darkslategray;
+  text-align: center;
 }
 .Title {
-  text-align: center;
-  font-size: 80%;
+  font-size: 4rem;
 }
-.Row {
+.Gallery {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .Img-Card {
-  box-shadow: orchid;
-  padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  width: 30%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 0.3rem solid rgba(221, 221, 248, 0.6);
+  box-shadow: 5px 5px 5px lavender;
 }
 .Text {
+  font-size: 2.5rem;
 }
 .PIC {
-  margin: 1rem;
-  width: 25%;
+  width: 45%;
+  height: auto;
+  padding: 0.2rem;
 }
