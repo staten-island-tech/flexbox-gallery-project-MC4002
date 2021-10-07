@@ -1,15 +1,20 @@
-body {
-  background-color: ghostwhite;
-  box-sizing: border-box;
-  font-family: "Stick No Bills", sans-serif;
-  font-size: 62.5%;
+body,
+html,
+* {
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: ghostwhite;
+  font-family: "Stick No Bills", sans-serif;
   color: darkslategray;
   text-align: center;
 }
 .Title {
-  font-size: 4rem;
+  font-size: 6rem;
+  margin-top: 1rem;
 }
 .Gallery {
   display: flex;
@@ -18,10 +23,13 @@ body {
   justify-content: center;
 }
 .Img-Card {
-  width: 30%;
+  width: 32%;
+  height: auto;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: lavenderblush;
   border: 0.3rem solid rgba(221, 221, 248, 0.6);
   box-shadow: 5px 5px 5px lavender;
 }
@@ -29,6 +37,7 @@ body {
   font-size: 2.5rem;
 }
 .PIC {
+  margin-top: 5px;
   width: 45%;
   height: auto;
   padding: 0.2rem;
