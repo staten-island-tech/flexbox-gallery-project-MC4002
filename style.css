@@ -16,6 +16,10 @@ body {
   font-size: 6rem;
   margin-top: 1rem;
 }
+.Title:before {
+  content: "\2698";
+  color: mediumslateblue;
+}
 .Gallery {
   display: flex;
   flex-wrap: wrap;
@@ -25,20 +29,35 @@ body {
 .Img-Card {
   width: 32%;
   height: auto;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin: 1rem;
   background-color: lavenderblush;
   border: 0.3rem solid rgba(221, 221, 248, 0.6);
   box-shadow: 5px 5px 5px lavender;
+  transition: all 0.4s;
+}
+.Img-Card:hover {
+  transform: scale(1.5);
+  background: linear-gradient(#191654, #43c6ac);
 }
 .Text {
   font-size: 2.5rem;
+  animation-duration: 5s;
+  animation-name: Changing-Colors;
 }
+@keyframes Changing-Colors {
+  from {
+    color:#9CECFB;
+}
+  50% {
+    color:#65C7F7 ;
+  }
+  to {
+    color: #0052D4;
+  }
 .PIC {
   margin-top: 5px;
   width: 45%;
   height: auto;
   padding: 0.2rem;
+  transition: all 0.3s;
 }
