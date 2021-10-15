@@ -8,7 +8,14 @@ html,
 }
 @keyframes Color-Change {
   from {
+    background-color: ghostwhite;
+  }
+  5% {
     background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+  90% {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    opacity: 0;
   }
   to {
     background-color: ghostwhite;
@@ -20,8 +27,7 @@ body {
   color: darkslategray;
   text-align: center;
   animation-name: Color-Change;
-  animation-duration: 22s;
-  animation-delay: 3sec;
+  animation-duration: 20s;
 }
 .Title {
   text-shadow: 5px 5px 5px rgba(47, 79, 79, 0.4);
@@ -54,6 +60,7 @@ body {
 .Img-Card:hover {
   transform: scale(1.7);
   background: linear-gradient(#191654, #43c6ac);
+  box-shadow: 10px 10px 5px #2b2691;
 }
 .Text {
   font-size: 2.5rem;
@@ -71,4 +78,16 @@ body {
 }
 .PIC:hover {
   transform: scale(1.2);
+}
+@media all and (max-width: 768px) {
+  body {
+    color: slateblue;
+    background-color: snow;
+  }
+}
+@media all and (max-width: 600px) {
+  body {
+    color: teal;
+    background-color: snow;
+  }
 }
