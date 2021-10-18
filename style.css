@@ -8,7 +8,7 @@ html,
 }
 @keyframes Color-Change {
   from {
-    background-color: ghostwhite;
+    background-color: snow;
   }
   5% {
     background: linear-gradient(to right, #3494e6, #ec6ead);
