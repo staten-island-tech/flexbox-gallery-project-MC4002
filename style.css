@@ -81,24 +81,9 @@ body {
 }
 @media all and (max-width: 768px) {
   @keyframes CC-768 {
-    from {
-      background-color: snow;
-    }
-    5% {
-      background: linear-gradient(to right, #2C3E50, #4CA1AF);
-    }
-    90% {
-      background: linear-gradient(to right, #2C3E50, #4CA1AF);
-      opacity: 0;
-    }
-    to {
-      background-color: snow;
-    }
   body {
     color: slateblue;
     background-color: snow;
-    animation-name: CC-768;
-    animation-duration: 20s;
   }
   .Title {
     font-size: 5rem;
@@ -114,25 +99,9 @@ body {
   }
 }
 @media all and (max-width: 600px) {
-  @keyframes CC-600 {
-    from {
-      background-color: snow;
-    }
-    5% {
-      background: linear-gradient(to right, #FFAFBD, #ffc3a0);
-    }
-    90% {
-      background: linear-gradient(to right, #FFAFBD, #ffc3a0);
-      opacity: 0;
-    }
-    to {
-      background-color: snow;
-    }
   body {
     color: teal;
     background-color: snow;
-    animation-name: CC-600;
-    animation-duration: 20s;
   }
   .Title {
     font-size: 4rem;
