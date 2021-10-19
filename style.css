@@ -79,7 +79,7 @@ body {
 .PIC:hover {
   transform: scale(1.2);
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   body {
     color: slateblue;
     background-color: snow;
