@@ -80,7 +80,6 @@ body {
   transform: scale(1.2);
 }
 @media all and (max-width: 768px) {
-  @keyframes CC-768 {
   body {
     color: slateblue;
     background-color: snow;
